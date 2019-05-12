@@ -69,8 +69,8 @@ td img {
     background-color: darkslateblue;
     height: 177px;
     font-size: 0.8em;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     min-width: 900px;
 }
 
@@ -256,7 +256,7 @@ ul.menu li a:hover {
     padding-bottom: 2%;
 }
 
-..send {
+.send {
     margin-bottom: 4%;
 }
 
@@ -356,8 +356,8 @@ ul.menu li a:hover {
     text-align: center;
     background-color: darkslateblue;
     color: #a8aa94;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     min-width: 900px;
 }
 
