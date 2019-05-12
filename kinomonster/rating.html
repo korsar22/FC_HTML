@@ -25,8 +25,8 @@
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="films.html">Фильмы</a></li>
                 <li><a href="#">Сериалы</a></li>
-                <li><a href="rating.html">Рейтинг фильмов</a></li>
-                <li class="selected"><a href="contact.html">Контакты</a></li>
+                <li class="selected"><a href="#">Рейтинг фильмов</a></li>
+                <li><a href="contact.html">Контакты</a></li>
             </ul>
         </div>
 
@@ -70,34 +70,53 @@
         </div>
 
         <div class="content">
-
-            <h1>Контакты</h1>
-
-            <p>Отправте ваш отзыв о портале КиноМонстр</p>
-
-                <div class="send_contact">
-                    <form method="post" action="#" id="review">
-                        <input type="text" name="rewiev_name" placeholder="ваше имя" />
-                        <input type="text" name="rewiev_email" placeholder="ваш email" />
-                        <textarea name="review_text"></textarea>
-                        <p><input type="submit" value="отправить"></p>
-                    </form>
-                </div>
-            </div>
+            <table class="rating_table">
+                <tr>
+                    <th></th>
+                    <th>Фильм</th>
+                    <th class="center">Год</th>
+                    <th class="center">Рейтинг</th>
+                </tr>
+                <tr>
+                    <td class="center"><img src="assets/img/inter.png"></td>
+                    <td>1. <a href="show.html">Интерстеллар</a></td>
+                    <td class="center">2014</td>
+                    <td class="center_rating">8.1</td>
+                </tr>
+                <tr>
+                    <td class="center"><img src="assets/img/matrix.png"></td>
+                    <td>2. <a href="#">Матрица</a></td>
+                    <td class="center">1999</td>
+                    <td class="center_rating">8.0</td>
+                </tr>
+                <tr>
+                    <td class="center"><img src="assets/img/max.png"></td>
+                    <td>3. <a href="#">Безумный Макс</a></td>
+                    <td class="center">2015</td>
+                    <td class="center_rating">7.5</td>
+                </tr>
+                <tr>
+                    <td class="center"><img src="assets/img/cloud.png"></td>
+                    <td>4. <a href="#">Облачный атлас</a></td>
+                    <td class="center">2013</td>
+                    <td class="center_rating">7.4</td>
+                </tr>
+            </table>
         </div>
-
     </div>
 
-    <div class="footer">
-        <p>
-            <a href="index.html">Главная</a> |
-            <a href="films.html">Фильмы</a> |
-            <a href="#">Сериалы</a> |
-            <a href="rating.html">Рейтинг фильмов</a> |
-            <a href="contact.html">Контакты</a>
-        </p>
-        <p>Arkhipov, 2019</p>
-    </div>
+</div>
+
+<div class="footer">
+    <p>
+        <a href="index.html">Главная</a> |
+        <a href="films.html">Фильмы</a> |
+        <a href="#">Сериалы</a> |
+        <a href="rating.html">Рейтинг фильмов</a> |
+        <a href="contact.html">Контакты</a>
+    </p>
+    <p>Arkhipov, 2019</p>
+</div>
 
 </div>
 </body>
